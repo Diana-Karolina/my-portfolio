@@ -100,7 +100,7 @@ section{
 
 .home-img{
     width: 700px;
-    height: 500px;
+    height: 730px;
 }
 
 .home-img img{
@@ -309,6 +309,23 @@ section{
         transition: .2s;
     }
     .btn{
-        padding: 9px 28;
+        padding: 9px 28px;
+    }
+}
+
+.home-img img{
+    animation: imgg 2s ease-in-out infinite;
+    animation-delay: 2s;
+}
+
+@keyframes imgg{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-22px);
+    }
+    100%{
+        transform: translateY(0);
     }
 }
