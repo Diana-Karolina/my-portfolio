@@ -63,7 +63,7 @@ header{
 }
 
 .navbar a:active{
-    color: var(--main-color);
+    color: #ffae00;
 }
 
 .menu-btn{
@@ -109,6 +109,7 @@ section{
     object-fit: contain;
 }
 
+/*este es de software developer*/
 .home-text span{
     padding: 5px 25px;
     background: linear-gradient(130.08deg, #383528 0%, #ffae00 100%);
@@ -314,8 +315,7 @@ section{
 }
 
 .home-img img{
-    animation: imgg 2s ease-in-out infinite;
-    animation-delay: 2s;
+    animation: imgg 2s ease-in-out ;
 }
 
 @keyframes imgg{

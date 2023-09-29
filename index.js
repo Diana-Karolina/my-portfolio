@@ -13,5 +13,5 @@ const myScroll = ScrollReveal({
     reset:True 
 });
 
-myScroll.reveal('.logo',{delay:200, origin:'left'});
+myScroll.reveal('.logo',{delay:50, origin:'left'});
 myScroll.reveal('.navbar',{delay:400, origin:'top'});
