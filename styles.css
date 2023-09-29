@@ -143,7 +143,7 @@ section{
     font-size: 16px;
     font-weight: 600;
     border-radius: 8px;
-    transition: all 0.6s rase-in-out;
+    transition: all 0.6s ease-in-out;
 }
 
 .btn:hover{
@@ -182,13 +182,14 @@ section{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 45%;
-    background: linear-gradient(130.08deg, #383528 0%, #191919 100%);
+    height: 60%;
+    width: 40px;
+    background: linear-gradient(130.08deg, #383528 0%, #A89E9B 100%);
     box-shadow: 0px 20px 40px #00000070;
     border: 1px solid #3b3b3b;
-    border-radius: 50%;
+    border-radius: 55%;
     color: #fff;
-    font-size: 20px;
+    font-size: 35px;
     margin: 0 7px;
     transition: all 0.6s ease-in-out;
 }
@@ -208,6 +209,7 @@ section{
     }
     .share{
         left: 8%;
+        transition: .2s;
     }
 }
 
@@ -222,10 +224,12 @@ section{
     }
     .share{
         left: 4%;
+        transition: .2s;
     }
     :root{
         --big-font: 5.5rem;
-        --p-fon: 1.1rem;
+        --p-fon: 1rem;
+        transition: .2s;
     }
 }
 
@@ -234,8 +238,8 @@ section{
         margin: 0 15px;
     }
     :root{
-        --big-font: 5.5rem;
-        --p-fon: 1.1rem;
+        --big-font: 5rem;
+        --p-fon: 1rem;
         transition: .2s;
     }
 }
@@ -261,6 +265,7 @@ section{
     .home-img{
         margin: auto;
         height: auto;
+        width: auto;
     }
     .home-img img{
         max-width: 450px;
@@ -278,10 +283,32 @@ section{
         top: 0;
         right: 0;
         bottom: 0;
-        left: 0;
+        left: 100%;
         display: flex;
         flex-direction: column;
         background: #2d2d2d;
         transition: all 0.4s ease-in-out;
+    }
+    .navbar a{
+        display: block;
+        color: #c3c3c3;
+        padding: 0px;
+        margin: 10px 0px 15px 0px;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    
+    .navbar .open{
+        left: 0;
+    }
+}
+@media (max-width: 859px){
+    :root{
+        --big-font: 4rem;
+        --p-fon: 15px;
+        transition: .2s;
+    }
+    .btn{
+        padding: 9px 28;
     }
 }
