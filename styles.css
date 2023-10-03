@@ -11,7 +11,7 @@
     --bg-color: #1f1f21;
     --text-color: #fff;
     --main-color: #ffae00;
-
+    scroll-behavior: smooth;
     --big-font: 7rem;
     --p-fon: 1.1rem;
 }
@@ -23,16 +23,13 @@ body{
 }
 
 header{
-    position: fixed;
-    top: 0;
-    right: 0;
     width: 100%;
     z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 32px 15%;
-    background: #27272766 ;
+    padding: 24px 15%;
+    background: #27272766;
     transition: all ease .45s;
 }
 
@@ -85,13 +82,15 @@ header{
 
 
 section{
-    padding: 0 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 0;
 }
 
 .home-initial{
     position: relative;
     width: 100%;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -99,14 +98,14 @@ section{
 }
 
 .home-img{
-    width: 730px;
-    height: 730px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .home-img img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 
@@ -114,7 +113,7 @@ section{
 
 /*este es de software developer*/
 .home-text span{
-    padding: 5px 25px;
+    padding: 5px 15px;
     background: linear-gradient(130.08deg, #383528 0%, #ffae00 100%);
     box-shadow: 0px 20px 40px #00000070;
     border: 1px solid #3b3b3b;
@@ -125,13 +124,18 @@ section{
     text-transform: uppercase;
 }
 
+.home-text{
+    margin-left:100px;
+    width: 55%;
+}
+
 .home-text h1{
     font-size: 4rem;
     margin: 23px 0;
 }
 
 .home-text p{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 400;
     color: #c3c3c3; 
     line-height: 30px;
@@ -265,6 +269,7 @@ section{
     text-align: center;
     transform: translate(-50%, -50%);
     
+    
 }
 
 .imagen:hover .overlay{
@@ -275,21 +280,36 @@ section{
 
 /*sobre mi */
 .generalMe {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    gap:30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(to right, #333, #888);
     padding: 20px;
-    color: #fff
 }
 
 .sobreMi {
     flex: 1;
-    margin-right: 20px;
+    margin-right: 30px;
+    margin-left: 100px;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+
+.sobreMi p{
+    font-size: 1.1rem;
+    color: #c3c3c3; 
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
 
 .imag-Sobremi {
     flex: 1;
+    text-align: center;
 }
 
 .imag-Sobremi img {
@@ -330,127 +350,6 @@ footer {
 }
 
 
-
-@media screen {
-    
-}
-
-
-@media (max-width: 1950px){
-    header{
-        padding: 15px 8%;
-        transition: .2s;
-    }
-    section{
-        padding: 0 8%;
-        transition: .2s;
-    }
-    .share{
-        left: 8%;
-        transition: .2s;
-    }
-}
-
-@media (max-width: 1370px){
-    header{
-        padding: 15px 4%;
-        transition: .2s;
-    }
-    section{
-        padding: 0 4%;
-        transition: .2s;
-    }
-    .share{
-        left: 4%;
-        transition: .2s;
-    }
-    :root{
-        --big-font: 5.5rem;
-        --p-fon: 1rem;
-        transition: .2s;
-    }
-}
-
-@media (max-width: 1020px){ 
-    .navbar a{
-        margin: 0 15px;
-    }
-    :root{
-        --big-font: 5rem;
-        --p-fon: 1rem;
-        transition: .2s;
-    }
-}
-@media (max-width: 980px){
-    .share{
-        display:none;
-    }
-    section{
-        padding: 70px 4%;
-    }
-    header{
-        padding: 11px 4%;
-        background: #2d2d2d;
-    }
-    .home{
-        height: auto;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .home-text{
-        order: 2;
-    }
-    .home-img{
-        margin: auto;
-        height: auto;
-        width: auto;
-    }
-    .home-img img{
-        max-width: 400px;
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media (max-width: 859px){
-    .navbar{
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        padding: 40px 50px;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 40%;
-        display: flex;
-        flex-direction: column;
-        background: #2d2d2d;
-        transition: all 0.4s ease-in-out;
-    }
-    .navbar a{
-        display: block;
-        color: #c3c3c3;
-        padding: 0px;
-        margin: 10px 0px 15px 0px;
-        font-size: 2rem;
-        font-weight: 400;
-    }
-    
-    .navbar .open{
-        left: 0;
-    }
-}
-@media (max-width: 859px){
-    :root{
-        --big-font: 4rem;
-        --p-fon: 15px;
-        transition: .2s;
-    }
-    .btn{
-        padding: 9px 28px;
-    }
-}
-
 .home-img img{
     animation: imgg 2s ease-in-out ;
 }
@@ -466,3 +365,52 @@ footer {
         transform: translateY(0);
     }
 }
+
+@media screen and (max-width: 1050px) {
+    header{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 10px;
+    }
+
+    .logo{
+        margin-bottom: 10px;
+    }
+
+    section{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-img{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .home-img img{
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-text{
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    header{
+        padding: 10px 5px;
+    }
+  }

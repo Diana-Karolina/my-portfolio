@@ -1,162 +1,155 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"/>
+  </head>
 
-<!--Este es el cuerpo-->
-<body>
-
+  <!--Este es el cuerpo-->
+  <body>
     <header>
-        <!--Es el menu-->
-        <a href="#" class="logo"><span>Mi Portafolio</span></a>
-        
-        <ul class="navbar">
-            <li><a href="" class="active">Inicio</a></li>
-            <li><a href="#" id="segunda-section">Acerca de mi</a></li>
-            <li><a href="#" >Habilidades</a></li>
-            <li><a href="#" >Contacto</a></li>
-        </ul>
+      <!--Es el menu-->
+      <a href="#" class="logo"><span>Mi Portafolio</span></a>
 
-        <!--El boton-->
-        <div class="menu-btn">
-            <span>INTRO</span>
-            <div class="bx bx-menu" id="menu-icon" ></div>
-        </div>
+      <ul class="navbar">
+        <li><a href="" class="active">Inicio</a></li>
+        <li><a href="#sobreMi">Sobre mi</a></li>
+        <li><a href="#galery1">Galeria</a></li>
+      </ul>
     </header>
 
-    
-    
     <!--Esta es la Seccion-->
     <section class="home-initial">
-        <div  class="home-text">
-            
-            <span>Software Developer</span>
+      <div class="home-text">
+        <span>Software Developer</span>
 
-            <h1>Hola Bienvenidos a mi sitio</h1>
-            <p>En donde podras leer un poco sobre mi, sobre cuales son mis habilidades, <br>
-            como ha influido el mundo del Desarrollo en mi. Tambien podras visitar mis redes <br>
-            sociales para mas informacion!
-            </p>
+        <h1>Hola Bienvenidos a mi sitio</h1>
+        <p>
+          En donde podras leer un poco sobre mi, sobre cuales son mis <br />
+          habilidades, como ha influido el mundo del Desarrollo en mi. <br />
+          Tambien podras visitar mis redes sociales para mas informacion!
+        </p>
 
-            <!--Estos son los botones de descarga-->
-            <div class="seccion-btn">
-                <a href="./Diana_Software_CV (1).pdf" download="Cv" target="_blank" class="btn">Descargar CV</a>
-                <a href="img/mi Diploma.jpeg" target="_blank" class="btn two">Diploma Backend</a>
-            </div>
+        <!--Estos son los botones de descarga-->
+        <div class="seccion-btn">
+          <a href="./Diana_Software_CV (1).pdf"  target="_blank" class="btn">Descargar CV</a>
+          <a href="img/mi Diploma.jpeg" target="_blank" class="btn two">Diploma Backend</a>
         </div>
+      </div>
 
-        <!--aqui esta mi foto en codigo-->
-        <div class="home-img">
-            <img src="img/newFotogri.png" alt="Diana">
-        </div>
-        
+      <!--aqui esta mi foto en codigo-->
+      <div class="home-img">
+        <img src="img/newFotogri.png" alt="Diana" />
+      </div>
     </section>
-    
-    <section class="home-initial2">
-        <br>
-        <div class="galeria">
-            <h1>Galeria</h1>
-            <div class="content-imagenes">
 
-                <div class="imagen">
-                    <img src="./img/programmy/conferencia_grupal.jpeg" alt="">
-                    <div class="overlay">
-                        <h2>Conferencia de Programacion</h2>
-                    </div>
-                </div>
-                <div class="imagen">
-                    <img src="./img/programmy/programacion_fotoSola.jpeg" alt="">
-                    <div class="overlay">
-                        <h2>Desarrollo de proyecto</h2>
-                    </div>
-                </div>
-                <div class="imagen">
-                    <img src="./img/programmy/dianakarolina.jpeg" alt="">
-                    <div class="overlay">
-                        <h2>Desarrollo y Reunion</h2>
-                    </div>
-                </div>
-                <div class="imagen">
-                    <img src="./img/programmy/foto_oficina.jpeg" alt="">
-                    <div class="overlay">
-                        <h2>Foto Oficina</h2>
-                    </div>
-                </div>      
-                <div class="imagen">
-                    <img src="./img/programmy/foto_diploma.jpeg" alt="">
-                    <div class="overlay">
-                        <h2>Entrega de mi Certificado</h2>
-                    </div>
-                </div>       
-                <div class="imagen">
-                    <img src="./img/programmy/diploma_grupal.jpeg" alt="">
-                    <div class="overlay">
-                        <h2>Foto</h2>
-                    </div>
-                </div>
+    <section class="home-initial2">
+      <br />
+      <div class="galeria" id="galery1">
+        <h1>Galeria</h1>
+        <div class="content-imagenes">
+          <div class="imagen">
+            <img src="./img/programmy/conferencia_grupal.jpeg" alt="" />
+            <div class="overlay">
+              <h2>Conferencia de Programacion</h2>
             </div>
+          </div>
+          <div class="imagen">
+            <img src="./img/programmy/programacion_fotoSola.jpeg" alt="" />
+            <div class="overlay">
+              <h2>Desarrollo de proyecto</h2>
+            </div>
+          </div>
+          <div class="imagen">
+            <img src="./img/programmy/dianakarolina.jpeg" alt="" />
+            <div class="overlay">
+              <h2>Desarrollo y Reunion</h2>
+            </div>
+          </div>
+          <div class="imagen">
+            <img src="./img/programmy/foto_oficina.jpeg" alt="" />
+            <div class="overlay">
+              <h2>Foto Oficina</h2>
+            </div>
+          </div>
+          <div class="imagen">
+            <img src="./img/programmy/foto_diploma.jpeg" alt="" />
+            <div class="overlay">
+              <h2>Entrega de mi Certificado</h2>
+            </div>
+          </div>
+          <div class="imagen">
+            <img src="./img/programmy/diploma_grupal.jpeg" alt="" />
+            <div class="overlay">
+              <h2>Foto</h2>
+            </div>
+          </div>
         </div>
-        <br>
+      </div>
+      <br />
     </section>
 
     <div class="generalMe">
-        <div class="sobreMi">
-            
-            <span>Sobre mi</span>
-
-            <h1>Hola me llamo Diana</h1>
-            <p>
-                Desde mi adolescencia, quise apostar por el fascinante mundo de la programación. Inicié mi <br>
-                trayecto educativo con las herramientas básicas necesarias para aprender a programar y, <br> 
-                posteriormente, me sumergí en el lenguaje de programación JavaScript. A pesar de los <br>
-                desafíos iniciales, perseveré y con el paso de los años, he tenido valiosas oportunidades <br>
-                para expandir mis conocimientos y habilidades. <br>
-            </p>
-            <br>
-            <p>
-                A lo largo de mi trayectoria, he tenido el privilegio de formar parte de equipos de desarrollo, <br> 
-                donde he puesto a prueba mis capacidades y habilidades. Estoy profundamente satisfecha <br> 
-                por haber elegido este camino, y mi objetivo actual es continuar creciendo y evolucionando <br>
-                en este emocionante mundo de la programación.
-            </p>
-            
-        </div>
-        <div class="imag-Sobremi">
-            <img src="img/svg_computer.png" alt="Diana">
-        </div>
-    
+      <div class="sobreMi" id="sobreMi">
+        <h3>Sobre Mi</h3>
+        <br />
+        <h1>Hola me llamo Diana</h1>
+        <br />
+        <p>
+          Desde mi adolescencia, quise apostar por el fascinante mundo de la
+          programación. Inicié mi <br />
+          trayecto educativo con las herramientas básicas necesarias para
+          aprender a programar y, <br />
+          posteriormente, me sumergí en el lenguaje de programación JavaScript.
+          A pesar de los <br />
+          desafíos iniciales, perseveré y con el paso de los años, he tenido
+          valiosas oportunidades <br />
+          para expandir mis conocimientos y habilidades. <br />
+        </p>
+        <br />
+        <p>
+          A lo largo de mi trayectoria, he tenido el privilegio de formar parte
+          de equipos de desarrollo, <br />
+          donde he puesto a prueba mis capacidades y habilidades. Estoy
+          profundamente satisfecha <br />
+          por haber elegido este camino, y mi objetivo actual es continuar
+          creciendo y evolucionando <br />
+          en este emocionante mundo de la programación.
+        </p>
+      </div>
+      <div class="imag-Sobremi">
+        <img src="img/softwareComputer.png" alt="Diana" />
+      </div>
     </div>
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <script src="/my-portfolio//index.js"></script>
-
-    
-</body>
-<footer>
+  </body>
+  <footer>
     <div class="contenedor-footer">
-        <div class="contenr-foo">
-            <h4>Teléfono</h4>
-            <p>0989495204</p>
-        </div>
-        <div class="contenr-foo">
-            <h4>Email</h4>
-            <p>ortegadianakarolina@gmail.com</p>
-        </div>
-        <div class="contenr-foo">
-            <h4>Ubicación</h4>
-            <p>Ecuador - Guayaquil</p>
-        </div>
+      <div class="contenr-foo">
+        <h4>Teléfono</h4>
+        <p>0989495204</p>
+      </div>
+      <div class="contenr-foo">
+        <h4>Email</h4>
+        <p>ortegadianakarolina@gmail.com</p>
+      </div>
+      <div class="contenr-foo">
+        <h4>Ubicación</h4>
+        <p>Ecuador - Guayaquil</p>
+      </div>
     </div>
     <h2 class="titulo-final">Diana Desing | <span>Developer Sf</span></h2>
-</footer>
+  </footer>
 
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script src="/my-portfolio//index.js"></script>
 </html>
