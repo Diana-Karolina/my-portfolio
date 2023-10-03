@@ -140,7 +140,7 @@ section{
 /*SECTION SEGUNDO*/
 .home-initial2{
     gap:30px;
-    background: linear-gradient(130.08deg,  #08080870 0%, #8f8581d5 100%);
+    background: linear-gradient(to bottom, #333, #666);
     box-shadow: 0px 20px 40px #08080883;
 }
 
@@ -234,7 +234,6 @@ section{
 .content-imagenes .imagen{
     width:32%;
     position: relative;
-    height: 340px;
     margin-bottom: 5px;
     box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 75);
 }
@@ -258,8 +257,8 @@ section{
 
 .overlay h2{
     color: #fff;
-    font-weight: 250;
-    font-size: 30px;
+    font-weight: 500;
+    font-size: 24px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -274,35 +273,60 @@ section{
 }
 
 
+/*sobre mi */
+.generalMe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #333, #888);
+    padding: 20px;
+    color: #fff
+}
+
+.sobreMi {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.imag-Sobremi {
+    flex: 1;
+}
+
+.imag-Sobremi img {
+    max-width: 100%;
+}
+
+
+
+
+
+
 /* Estilo del pie de página */
 footer {
-    background-color: #000;
+    background-color: #414141be;
     color: #fff;
     padding: 20px 0;
 }
 
-/* Estilo del contenido del pie de página */
 .contenedor-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* Estilo de cada sección del pie de página */
 .contenr-foo {
     text-align: center;
     flex: 1;
     padding: 30px;
 }
 
-/* Estilo de los títulos y párrafos */
 .contenr-foo h4 {
     margin: 0;
 }
 
-/* Estilo del título final */
 .titulo-final {
     text-align: center;
+    color: #ffae00;
 }
 
 
