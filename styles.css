@@ -274,6 +274,39 @@ section{
 }
 
 
+/* Estilo del pie de página */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Estilo del contenido del pie de página */
+.contenedor-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo de cada sección del pie de página */
+.contenr-foo {
+    text-align: center;
+    flex: 1;
+    padding: 30px;
+}
+
+/* Estilo de los títulos y párrafos */
+.contenr-foo h4 {
+    margin: 0;
+}
+
+/* Estilo del título final */
+.titulo-final {
+    text-align: center;
+}
+
+
+
 @media screen {
     
 }
