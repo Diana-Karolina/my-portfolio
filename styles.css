@@ -366,7 +366,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1020px) {
     header{
         flex-wrap: wrap;
         align-items: center;
@@ -421,12 +421,23 @@ footer {
         }
 
         .imag-Sobremi {
-            margin-top: 5px;
+            margin-top: 10px;
             text-align: center; /* Centrado de la imagen en dispositivos móviles */
         }
     
         .imag-Sobremi img {
-            max-width: 30%; /* Ajuste del ancho máximo de la imagen para que sea más pequeña */
+            max-width: 80%; /* Ajuste del ancho máximo de la imagen para que sea más pequeña */
+            height: auto; /* Asegura que la altura se ajuste proporcionalmente */
+        }
+
+        .contenedor-footer {
+            flex-direction: column; /* Cambio a diseño en columna en dispositivos móviles */
+            align-items: center; /* Centrado horizontal de elementos en columna */
+        }
+    
+        .contenr-foo {
+            flex: 1; /* Ajuste de flex para ocupar el ancho completo en columna */
+            margin-bottom: 20px; /* Agregado margen inferior para separar elementos */
         }
 
   }
