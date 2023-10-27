@@ -483,6 +483,26 @@ footer {
         text-align: center;
     }
 
+    .seccion-btn{
+        text-align: center;
+    }
+
+    .seccion-btn .btn{
+        margin: 7px;
+    }
+
+    .content-imagenes{
+        width: 95%;
+    }
+
+    .overlay{
+        background: linear-gradient(180deg, #08080870 0%, #000000e5 100%);
+    }
+
+    .overlay h2 {
+        font-size: 18px;
+    }
+
     .generalMe {
         flex-direction: column;
         align-items: center;
