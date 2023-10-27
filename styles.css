@@ -421,12 +421,12 @@ footer {
         }
 
         .imag-Sobremi {
-            margin-top: 10px;
+            margin-top: 5px;
             text-align: center; /* Centrado de la imagen en dispositivos móviles */
         }
     
         .imag-Sobremi img {
-            max-width: 50%; /* Ajuste del ancho máximo de la imagen para que sea más pequeña */
+            max-width: 30%; /* Ajuste del ancho máximo de la imagen para que sea más pequeña */
         }
 
   }
