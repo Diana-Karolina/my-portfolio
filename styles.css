@@ -430,16 +430,106 @@ footer {
         }
 
         .contenedor-footer {
-            flex-direction: column; /* Cambio a diseño en columna en dispositivos móviles */
-            align-items: center; /* Centrado horizontal de elementos en columna */
+            flex-direction: column;
+            align-items: center; 
         }
     
         .contenr-foo {
-            flex: 1; /* Ajuste de flex para ocupar el ancho completo en columna */
-            margin-bottom: 20px; /* Agregado margen inferior para separar elementos */
+            flex: 1; 
+            margin-bottom: 20px; 
         }
 
   }
+
+  @media screen and (max-width: 730px) {
+    header {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 10px;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    section {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-img {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .home-img img {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-text {
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .generalMe {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .sobreMi {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .imag-Sobremi {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .imag-Sobremi img {
+        max-width: 15%;
+    }
+
+    .contenedor-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenr-foo {
+        flex: 1;
+        margin-bottom: 20px;
+    }
+
+    .contenedor-footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenr-foo{
+        float: 1;
+        margin-bottom: 20px;
+    }
+
+    .titulo-final{
+        text-align: center;
+    }
+
+}
+
 
 
   
