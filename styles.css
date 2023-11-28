@@ -496,6 +496,15 @@ footer {
             margin-bottom: 20px; 
         }
 
+        .card {
+            width: 100%; /* Ajusta el ancho de la tarjeta al 100% del contenedor en pantallas más pequeñas */
+            margin: 20px 0; /* Ajusta el margen en pantallas más pequeñas */
+        }
+    
+        .card img {
+            width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor en pantallas más pequeñas */
+        }
+
   }
 
   @media screen and (max-width: 730px) {
@@ -580,6 +589,22 @@ footer {
     .imag-Sobremi img {
         max-width: 15%;
     }
+
+    .habilidades {
+        padding: 10px; /* Ajusta el espaciado en pantallas más pequeñas */
+        flex-direction: column; /* Cambia a una disposición de columna en pantallas más pequeñas */
+        align-items: flex-start; /* Alinea los elementos al inicio en pantallas más pequeñas */
+    }
+
+    .card {
+        width: 100%; /* Ancho completo en pantallas más pequeñas */
+        margin: 20px 0; /* Ajusta el margen en pantallas más pequeñas */
+    }
+
+    .card img {
+        width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    }
+    
 
     .contenedor-footer {
         flex-direction: column;
