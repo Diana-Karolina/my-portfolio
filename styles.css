@@ -334,10 +334,10 @@ section{
     border: 2px solid #000;
     border-radius: 8px;
     padding: 15px;
-    width: 300px; /* Ajusta el ancho según tus preferencias */
-    margin: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    width: 350px; /* Ajusta el ancho según tus preferencias */
+    margin: 90px;
+    box-shadow: 0 4px 8px rgba(36, 36, 36, 0.1);
+    background-color: #545f81;
     transition: box-shadow 0.3s ease; /* Transición suave para el sombreado */
   }
 
@@ -363,13 +363,13 @@ section{
 
   .card-text {
     font-size: 1rem;
-    color: #555;
+    color: #fff;
     margin-bottom: 15px;
   }
 
   .btn-primary {
     background-color: #fff;
-    color: #5c553a;
+    color: #545f81;
     text-decoration: none;
     padding: 8px 15px;
     border-radius: 5px;
@@ -380,7 +380,7 @@ section{
 
 /* Estilo del pie de página */
 footer {
-    background-color: #414141be;
+    background: linear-gradient(to right, #545f81, #545f81);
     color: #fff;
     padding: 50px 0;
 }
